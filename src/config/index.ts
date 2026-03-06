@@ -28,38 +28,31 @@ export const SITE_CONTENT: SiteContent = {
     name: "Rizky Maulana sidik",
     specialty: "Web Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Web Developer based in Indonesia. I specialize in building modern, responsive user interfaces and developing high-performance web applications using the latest technologies.",
+    email: "rizkymaulanasidik2@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
+      company: "Rc Komputer",
+      position: "PC Maintenance & Repair Specialist",
       startDate: "May 2018",
-      endDate: "Sept 2020",
+      endDate: "May 2019",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Performing assembly, maintenance, and repair of computer components such as CPUs, RAM, and motherboards to ensure optimal hardware performance.",
+        "Executing installation, updates, and configuration of operating systems (Windows/Linux) and application software, including malware removal and system optimization.",
+        "Configuring network connectivity (LAN/Wi-Fi) and integrating external devices such as printers, scanners, and projectors for seamless office operations.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Cafe 190",
+      position: "Kitchen Crew",
+      startDate: "Feb 2022",
+      endDate: "May 2023",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Preparing high-quality ingredients, including washing, cutting, and seasoning, to ensure all materials are ready for efficient cooking operations.",
+        "Operating various kitchen equipment to cook dishes according to standardized recipes while ensuring consistent taste, temperature, and visual presentation.",
+        "Maintaining a clean and organized workstation by following strict food safety (HACCP) standards, sanitizing equipment, and managing proper ingredient storage.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
@@ -87,9 +80,9 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      I am a Junior Front-End Developer focused on building efficient client-side applications. With a solid foundation in HTML, CSS, and JavaScript, I am committed to turning digital designs into functional and accessible code for everyone.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Having recently completed [Sebutkan Sertifikasi/Bootcamp], I have gained experience in state management and API integration. I am currently looking for opportunities to contribute to a creative team and accelerate my professional growth in web development.
     `,
     image: "/alejandro-big.jpg",
   },
