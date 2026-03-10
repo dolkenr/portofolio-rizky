@@ -84,7 +84,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Having recently completed [Sebutkan Sertifikasi/Bootcamp], I have gained experience in state management and API integration. I am currently looking for opportunities to contribute to a creative team and accelerate my professional growth in web development.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/small.jpeg",
   },
 };
 
