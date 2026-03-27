@@ -6,18 +6,15 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/small.jpeg",
+  siteLogo: "/fatih.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects"},
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Instagram", href: "https://www.instagram.com/dolkenalfatih?igsh=MWNmNDJrNHo4dXR0" },
+    { text: "Github", href: "https://github.com/dolkenr" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -59,7 +56,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Cafe 190",
       summary: "QR ordering app at the table.",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/dolkenr/cafe190.git",
       image: "/l.png",
     },
   ],
@@ -69,7 +66,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Having recently completed [Sebutkan Sertifikasi/Bootcamp], I have gained experience in state management and API integration. I am currently looking for opportunities to contribute to a creative team and accelerate my professional growth in web development.
     `,
-    image: "/small.jpeg",
+    image: "/fatih.jpeg",
   },
 };
 
