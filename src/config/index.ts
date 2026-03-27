@@ -9,7 +9,7 @@ export const SITE_CONFIG: SiteConfig = {
   siteLogo: "/small.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
-    
+    { text: "Projects", href: "#projects"},
     { text: "About", href: "#about" },
   ],
   socialLinks: [
@@ -57,25 +57,10 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Spotifu Musi",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
+      name: "Cafe 190",
+      summary: "QR ordering app at the table.",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: "/l.png",
     },
   ],
   about: {
