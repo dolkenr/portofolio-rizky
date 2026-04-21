@@ -15,7 +15,6 @@ const { projects } = Astro.props;
     projects.map(({ name, summary, image, linkSource, linkDemo }, index) => {
       const top = 98 + index * 40;
       // Cek apakah ini proyek Resto Cloud untuk menampilkan video
-      const isRestoCloud = name.toLowerCase().includes("resto");
 
       return (
         <div

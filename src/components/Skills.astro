@@ -5,11 +5,11 @@ const { skills } = Astro.props;
 
 <Section text="Technical Skills" href="skills">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-20">
-    {skills?.map((skill) => (
+    {skills?.map((skill: { category: string; items: string[] }) => (
       <div class="project-card p-6 rounded-2xl border border-neutral/20 bg-[#050505]/90">
         <h3 class="text-primary font-serif text-xl mb-4 uppercase tracking-widest">{skill.category}</h3>
         <div class="flex flex-wrap gap-2">
-          {skill.items.map((item) => (
+            {skill.items?.map((item: string) => (
             <span class="px-3 py-1 text-xs font-monospace border border-primary/30 text-white rounded-full bg-primary/5 hover:bg-primary/20 transition-colors">
               {item}
             </span>
