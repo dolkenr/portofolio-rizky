@@ -4,10 +4,10 @@
   --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
   --font-serif: "Gabarito Variable", ui-serif, serif;
 
-  --color-primary: #2563eb;
-  --color-neutral: #94a3b8;
-  --color-white: #e2e8f0;
-  --color-black: #0e141b;
+  --color-primary: #00f3ff;   
+  --color-neutral: #64748b;
+  --color-white: #f8fafc;
+  --color-black: #050505;
 
   --text-xs: 0.875rem;
   --text-xs--line-height: 1.125rem;
@@ -50,4 +50,21 @@
       transform: translateY(0);
     }
   }
+}
+/* Efek Glow untuk Judul Proyek */
+h3 {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.2);
+  color: #00f3ff; /* Warna Cyan Cyberpunk */
+}
+
+/* Efek Border Neon pada Card Proyek */
+.project-card {
+  border: 1px solid rgba(0, 243, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: #ff0055; /* Warna Magenta saat Hover */
+  box-shadow: 0 0 15px rgba(255, 0, 85, 0.3);
+  transform: translateY(-5px);
 }

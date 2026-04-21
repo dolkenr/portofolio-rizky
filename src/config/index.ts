@@ -1,22 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Rizky Maulana sidik —  & Web Developer",
-  author: "Rizky Maulana sidik",
+  title: "Rizky Maulana Sidik — Full-Stack Developer",
+  author: "Rizky Maulana Sidik",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
+    "Full-Stack Developer based in Indonesia. I specialize in building secure web applications, real-time dashboards, and high-performance systems.",
+  lang: "id", // Ganti ke 'id' jika ingin bahasa Indonesia dominan
   siteLogo: "/fatih.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects"},
+    { text: "Skills", href: "#skills" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
     { text: "Instagram", href: "https://www.instagram.com/dolkenalfatih?igsh=MWNmNDJrNHo4dXR0" },
     { text: "Github", href: "https://github.com/dolkenr" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/fatih.jpeg",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
@@ -25,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Rizky Maulana sidik",
     specialty: "Web Developer",
     summary:
-      "Web Developer based in Indonesia. I specialize in building modern, responsive user interfaces and developing high-performance web applications using the latest technologies.",
+      "Full-Stack Developer based in Indonesia. I specialize in building secure web applications and real-time management systems.",
     email: "rizkymaulanasidik2@email.com",
   },
   experience: [
@@ -38,6 +39,7 @@ export const SITE_CONTENT: SiteContent = {
         "Performing assembly, maintenance, and repair of computer components such as CPUs, RAM, and motherboards to ensure optimal hardware performance.",
         "Executing installation, updates, and configuration of operating systems (Windows/Linux) and application software, including malware removal and system optimization.",
         "Configuring network connectivity (LAN/Wi-Fi) and integrating external devices such as printers, scanners, and projectors for seamless office operations.",
+        "Developing internal automation scripts for system diagnostics and hardware stress-testing.",
       ],
     },
     {
@@ -54,17 +56,45 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Cafe 190",
-      summary: "QR ordering app at the table.",
+      name: "Resto Cloud - SaaS POS & Inventory",
+      summary: "Aplikasi POS real-time dengan sistem monitoring stok otomatis, visualisasi omzet, dan proteksi keamanan distribusi (Domain Locking & Code Obfuscation), Implementing Advanced Security (Code Obfuscation & Domain Whitelisting), Integrated Supabase Real-time for instant inventory updates.",
+      linkSource: "https://github.com/dolkenr/resto-cloud", // Pastikan repo private kamu ada di sini
+      linkDemo: "https://resto-cloud.vercel.app", // Link Vercel kamu
+      image: "/resto.png", // Ganti dengan screenshot dashboard cyberpunk kamu (156/157)
+    },
+    {
+      name: "Cafe 190 Web App",
+      summary: "Sistem pemesanan menu berbasis QR-Code untuk efisiensi layanan meja restoran.",
       linkSource: "https://github.com/dolkenr/cafe190.git",
+      linkDemo: "https://onrender.com",
       image: "/l.png",
+    },
+  ],
+  skills: [
+    {
+      category: "Frontend",
+      items: ["React.js", "Vite", "Tailwind CSS", "Astro", "Chart.js"],
+    },
+    {
+      category: "Backend & DB",
+      items: ["Supabase", "PostgreSQL", "Real-time Subscription", "RLS Security"],
+    },
+    {
+      category: "DevOps & Security",
+      items: ["Vercel", "Git/GitHub", "JS Obfuscation", "Domain Locking"],
+    },
+    {
+      category: "Tools",
+      items: ["VS Code", "XAMPP", "Postman", "Figma"],
     },
   ],
   about: {
     description: `
-      I am a Junior Front-End Developer focused on building efficient client-side applications. With a solid foundation in HTML, CSS, and JavaScript, I am committed to turning digital designs into functional and accessible code for everyone.
+      Saya adalah seorang Full-Stack Developer yang berfokus pada pembangunan aplikasi web yang efisien dan aman. Saya memiliki pengalaman dalam mengintegrasikan frontend React dengan sistem backend real-time seperti Supabase.
 
-      Having recently completed [Sebutkan Sertifikasi/Bootcamp], I have gained experience in state management and API integration. I am currently looking for opportunities to contribute to a creative team and accelerate my professional growth in web development.
+      Baru-baru ini saya berhasil mengembangkan sistem monitoring restoran yang mengimplementasikan keamanan tingkat lanjut seperti 'Domain Locking' dan 'JavaScript Obfuscation' untuk melindungi hak cipta aplikasi. Saya sangat tertarik pada pengembangan solusi digital yang praktis, aman, dan memiliki performa tinggi.
+
+      Saya senang memecahkan masalah keamanan pada aplikasi web, seperti yang saya terapkan pada sistem proteksi lisensi di proyek terbaru saya. Saya selalu bersemangat untuk mempelajari teknologi baru dan menerapkannya dalam solusi dunia nyata.
     `,
     image: "/fatih.jpeg",
   },

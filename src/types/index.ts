@@ -12,6 +12,11 @@ export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
   projects: ProjectProps[];
+  // TAMBAHKAN BARIS INI:
+  skills: {
+    category: string;
+    items: string[];
+  }[];
   about: AboutProps;
 }
 
@@ -34,7 +39,7 @@ export interface ProjectProps {
   name: string;
   summary: string;
   image: string;
-  linkPreview?: string;
+  linkDemo?: string;
   linkSource?: string;
 }
 
